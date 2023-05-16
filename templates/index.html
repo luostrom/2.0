@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Trading Bot</title>
+</head>
+<body>
+    <h1>Trading Bot</h1>
+    <form action="/" method="post">
+        <select name="symbol">
+            <option value="btcusdt">Bitcoin</option>
+            <option value="ethusdt">Ethereum</option>
+            <option value="bchusdt">Bitcoin Cash</option>
+            <option value="xrpusdt">Ripple</option>
+            <option value="ltcusdt">Litecoin</option>
+            <option value="eosusdt">EOS</option>
+            <option value="zecusdt">Zcash</option>
+            <option value="linkusdt">Chainlink</option>
+            <option value="adausdt">Cardano</option>
+            <option value="dotusdt">Polkadot</option>
+        </select>
+        <input type="number" name="amount" placeholder="Amount">
+        <input type="submit" value="Submit">
+    </form>
+    <p>{{ message }}</p>
+</body>
+</html>
